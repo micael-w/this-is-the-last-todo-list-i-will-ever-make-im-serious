@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+:root {
+ 
+/* --------------------------------- colors --------------------------------- */
+ 
+/* ------------------------------- background       */
+ 
+    --bg-dark:          #cbe4eb;
+    --bg-mid:           #e0ebee;
+    --bg-light:         #e5f6f3;
+ 
+/* --------------------------------- primary        */
+ 
+    --interface-dark :  #e8f1f0;
+    --interface-light:  #f4f8f4;
+    --dark:             #454d63;
+    --blue:             #4591dc;
+    --subtle-warm:      #f3f2ee;
+    --subtle-cold:      #b4c0d9;
+ 
+/* ---------------------------------- reds          */
+ 
+    --red-dark:         #d24e63;
+    --red-mid:          #e86c7e;
+    --red-light:        #e98893;
+ 
+/* --------------------------------- yellows        */
+ 
+    --yellow-dark:      #fd9a4d;
+    --yellow-mid:       #ffb94d;
+    --yellow-light:     #ffca4c;
+ 
+/* --------------------------------- greens         */
+ 
+    --green-dark:       #478965;
+    --green-mid:        #57a682;
+    --green-light:      #73bf7c;
+ 
+/* --------------------------------- purples        */
+ 
+    --purple-dark:      #d17bcf;
+    --purple-mid:       #d096e1;
+    --purple-light:     #c8b2f9;
+ 
+}
+
+/* -------------------------------- css reset ------------------------------- */
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: dark;
+}
