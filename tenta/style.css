@@ -55,12 +55,18 @@
     padding: 0;
 }
 
+/* ----------------------------------- css ---------------------------------- */
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
     color: var(--dark);
     display: flex;
     justify-content: center;
     background-color: var(--bg-dark);
+}
+
+h1 {
+    margin-top: 1.5rem;
 }
 
 .container {
@@ -122,4 +128,12 @@ ul {
     0 0.3px 0.3px rgba(0, 0, 0, 0.066),
     0 0.9px 1.3px rgba(0, 0, 0, 0.062),
     0 4px 12px rgba(0, 0, 0, 0.07);
+}
+
+.check {
+    color: var(--green-light);
+}
+
+.delete {
+    color: var(--red-mid);
 }
